@@ -6,7 +6,7 @@ services:
 env:
   global:
     - NAME=pkendall64/mythtv
-    - VERSION=30-fixes
+    - VERSION=31-fixes
 
 script:
   - docker build -t ${NAME}:${VERSION} --rm .
